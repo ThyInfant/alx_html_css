@@ -324,3 +324,29 @@ button:hover {
     gap: 30px;
 
 }
+
+footer {
+    background-color: #071629;
+    color: #FFFFFF;
+    padding: 50px;
+
+}
+
+.item-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+}
