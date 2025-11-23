@@ -187,3 +187,86 @@ button:hover {
         font-size: 1.2rem;
     }
 }
+.videos-section {
+    background-color: #FFFFFF;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 80px;
+    text-align: start;
+
+
+}
+
+.videos-section h2 {
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.videos-section p {
+    font-size: 16px;
+    color: #929292;
+}
+
+.videos-section span {
+    color: #C271FF;
+    font-weight: 600;
+
+
+}
+
+.videos {
+    display: flex;
+
+}
+
+
+.small {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.small h4 {
+    color: #C271FF;
+    font-size: 14px;
+}
+
+.small img {
+    border-radius: 50%;
+}
+
+
+.stars {
+    display: flex;
+    color: #C271FF;
+    font-size: small;
+    gap: 5px;
+}
+
+.videos .time {
+    color: #C271FF;
+}
+
+
+.meta {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.meta .stars {
+    display: flex;
+    gap: 5px;
+    color: #C271FF;
+}
+
+.meta .time {
+    color: #C271FF;
+    margin: 0;
+    font-size: 0.9rem;
+}
