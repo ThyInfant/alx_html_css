@@ -301,3 +301,26 @@ button:hover {
 .membership-tier p {
     font-size: 12px;
 }
+.faqs {
+    background-color: #FFFFFF;
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 40px 50px;
+
+}
+
+.faqs h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.faq-box {
+    gap: 30px;
+    display: flex;
+}
+
+.faq-items {
+    padding: 0 100px;
+    gap: 30px;
+
+}
