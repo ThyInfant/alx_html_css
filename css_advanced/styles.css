@@ -1,0 +1,143 @@
+body {
+    background-image: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+main > section:first-of-type {
+    background-image: url("images/Object.png");
+    background-size: cover;      /* or contain */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;               /* full screen hero */
+    position: relative;
+    padding-top: 0;
+}
+main > section:first-of-type,
+main > section:first-of-type * {
+    color: #fff;
+}
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;  /* on top of image */
+}
+header * {
+    color: #fff !important;
+}
+header {
+    background: transparent;
+}
+
+
+.banner,
+.pros {
+    position: relative;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-top: 20px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 12px;
+    padding-right: 25px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+
+}
+
+.banner {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.banner h1 {
+    color: #FFFFFF;
+    font-size: 110px;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.span {
+    margin-bottom: 30px;
+    margin-top: -80px;
+
+}
+
+.span-text {
+    color: #FFFFFF;
+    padding-right: 30px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+}
+
+button {
+    background-color: #C271FF;
+    color: #FFFFFF;
+    font-size: 10px;
+    padding: 12px;
+    border-radius: 25px;
+    border: 0px;
+    box-shadow: 0 1px 6px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+.pros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px 0;
+
+}
+
+.pros p {
+    color: #FFFFFF;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.pros-text {
+    font-size: 32px;
+
+}
+
+.pros-text span {
+    color: #C271FF;
+    font-weight: 800;
+}
+
+.main-pros {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+
+.main-pros img {
+    border-radius: 50%;
+}
+
+.main-pros h3 {
+    color: #FFFFFF;
+}
+
+.main-pros p {
+    color: #FFFFFF;
+    font-style: italic;
+}
