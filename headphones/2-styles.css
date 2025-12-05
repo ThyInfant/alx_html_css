@@ -99,7 +99,7 @@ nav a:active {
   position: relative;
   top: 115;
 }
-.explain1 {
+.what-we-do-decription {
   padding-top: 20px;
   display: flex;
   margin-left: auto;
@@ -107,7 +107,6 @@ nav a:active {
   margin-bottom: 97px;
   text-align: center;
   width: 651;
-  /* border: solid 1px black; */
 }
 
 .we-do {
@@ -118,7 +117,9 @@ nav a:active {
   gap: 5px;
   align-items: baseline;
   text-align: center;
-  /* border: solid 1px black; */
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .we-do0 h2 {
   margin-top: 80px;
@@ -126,7 +127,7 @@ nav a:active {
 }
 
 .we-do1 p, .we-do2 p, .we-do3 p, .we-do4 p {
-  width: 200;  
+  max-width: 200;  
   margin-top: 34px;
 }
 .we-do1 img, .we-do2 img, .we-do3 img, .we-do4 img {
@@ -134,3 +135,63 @@ nav a:active {
   width: 68px;
   height: 77px;  
 }
+
+/* Results-section */
+.results-section {
+  background: url("images/bottom.jpg") no-repeat center;
+  background-size: cover;
+  /* padding: 120px 0; */
+  color: white;
+  text-align: center;
+  /* position: absolute; */
+}
+.results-section1 {
+  display: flex; 
+}
+.container h2{
+  font-size: 30px;
+  padding-top: 150px;
+}
+
+.results-description {
+  margin: 60px auto 30px auto;
+  width: 651;
+}
+
+/* Wrapper keeps image + text aligned */
+.pentagon-wrapper {
+  position: relative;
+  max-width: 100%;            /* Resize freely — it will scale responsibly */
+  margin: 20px;
+}
+
+/* Pentagon image scaling */
+.pentagon-img {
+  max-width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Text centered on top of the PNG */
+.pentagon-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+  font-family: inherit;
+}
+
+.pentagon-text h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.pentagon-text p {
+  margin: 0;
+  font-size: 16px;
+  opacity: 0.8;
+}
+

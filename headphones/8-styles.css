@@ -1,0 +1,493 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.6;
+}
+
+/* --------------------------- */
+/* Registration */
+/* --------------------------- */
+
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: calc(100% - 22px);
+}
+
+button {
+  padding: 12px 30px;
+  background: #FF6565;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  background-color: #0056b3;
+  opacity: 0.9;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --------------------------- */
+/* Header + Nav */
+/* --------------------------- */
+
+.hero-wrapper {
+  background: url("images/front.jpg") no-repeat center;
+  background-size: cover;
+  color: white;
+}
+
+header {
+  position: relative;
+  z-index: 2;
+}
+
+nav {
+  background: transparent;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 100px;
+}
+
+nav .logo img {
+  height: 80px;
+  padding-left: 95px;
+}
+
+nav .nav-links a {
+  margin-left: 40px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a:active {
+  color: #FF6565;
+}
+
+/* --------------------------- */
+/* Hero Section */
+/* --------------------------- */
+
+.hero {
+  min-height: 100vh;
+  padding: 100px 40px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.hero h3 {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.hero button {
+  padding: 10px 20px;
+  font-size: 11px;
+  font-weight: bold;
+  color: white;
+  background-color: #FF6565;
+  height: 44px;
+  width: 162px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 60px;
+}
+
+.hero-description p {
+  margin: 115px auto 0 auto;
+  text-align: center;
+  width: 651px;
+}
+
+.what-we-do-decription {
+  padding-top: 20px;
+  margin: 0 auto 97px auto;
+  width: 651px;
+  text-align: center;
+}
+
+/* --------------------------- */
+/* What We Do Section */
+/* --------------------------- */
+
+.we-do {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2px 5px;
+  gap: 5px;
+  align-items: baseline;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.we-do0 h2 {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.we-do1 p, 
+.we-do2 p, 
+.we-do3 p, 
+.we-do4 p {
+  max-width: 200px;
+  margin-top: 34px;
+}
+
+.we-do1 img, 
+.we-do2 img, 
+.we-do3 img, 
+.we-do4 img {
+  margin-bottom: 30px;
+  width: 68px;
+  height: 77px;
+}
+
+/* --------------------------- */
+/* Results Section */
+/* --------------------------- */
+
+.results-section {
+  background: url("images/bottom.jpg") no-repeat center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.results-section1 {
+  display: flex;
+}
+
+.container h2 {
+  font-size: 30px;
+  padding-top: 150px;
+}
+
+.results-description {
+  margin: 60px auto 30px auto;
+  width: 651px;
+}
+
+/* Pentagon Items */
+.pentagon-wrapper {
+  position: relative;
+  max-width: 100%;
+  margin: 20px;
+}
+
+.pentagon-img {
+  max-width: 80%;
+  height: auto;
+}
+
+.pentagon-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #ffffff;
+}
+
+.pentagon-text h3 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.pentagon-text p {
+  margin: 0;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+/* --------------------------- */
+/* Contact */
+/* --------------------------- */
+
+.contact {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* --------------------------- */
+/* Footer */
+/* --------------------------- */
+
+.container-footer-content {
+  background: #071629;
+  padding: 60px 0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 100px;
+  padding-left: 95px;
+}
+
+.socials img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.twitter {
+  border-radius: 30px;
+}
+
+.footer {
+  background: #071629;
+  padding: 60px 0 20px;
+  color: white;
+  text-align: center;
+}
+
+.footer-content {
+  margin-bottom: 40px;
+}
+
+.footer .copyright {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+/* --------------------------- */
+/* Responsive */
+/* --------------------------- */
+
+@media (max-width: 480px) {
+  .pentagon-wrapper {
+    width: 160px;
+  }
+
+  .pentagon-text h3 {
+    font-size: 22px;
+  }
+
+  .pentagon-text p {
+    font-size: 12px;
+  }
+
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links {
+    margin-top: 15px;
+  }
+
+  .nav-links a {
+    margin: 10px;
+    display: inline-block;
+  }
+
+  .hero-content {
+    margin-top: 130px;
+    padding: 0 15px;
+  }
+}
+
+/* --------------------------- */
+/* Animations */
+/* --------------------------- */
+
+/* Service Fade Up */
+.we-do1 {
+  transform: translateY(40px);
+  opacity: 0;
+  animation: fadeUp 0.9s ease-out forwards;
+}
+
+.we-do1:nth-child(1) { animation-delay: 0.1s; }
+.we-do1:nth-child(2) { animation-delay: 0.25s; }
+.we-do1:nth-child(3) { animation-delay: 0.4s; }
+.we-do1:nth-child(4) { animation-delay: 0.55s; }
+
+.we-do1:hover {
+  transform: translateY(-10px) scale(1.05);
+  transition: 0.3s ease;
+}
+
+.we-do1 span:hover {
+  transform: rotate(10deg) scale(1.1);
+  transition: 0.3s ease;
+}
+
+/* Result Boxes */
+.pentagon-wrapper {
+  transform: scale(0.7);
+  opacity: 0;
+  animation: popIn 0.8s ease-out forwards;
+}
+
+.pentagon-wrapper:nth-child(1) { animation-delay: 0.15s; }
+.pentagon-wrapper:nth-child(2) { animation-delay: 0.3s; }
+.pentagon-wrapper:nth-child(3) { animation-delay: 0.45s; }
+.pentagon-wrapper:nth-child(4) { animation-delay: 0.6s; }
+
+.pentagon-wrapper:hover {
+  animation: wiggle 0.5s ease-in-out;
+}
+
+/* Keyframes */
+@keyframes fadeUp {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes popIn {
+  from { transform: scale(0.7); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes wiggle {
+  0%   { transform: rotate(0deg); }
+  25%  { transform: rotate(3deg); }
+  50%  { transform: rotate(-3deg); }
+  75%  { transform: rotate(2deg); }
+  100% { transform: rotate(0deg); }
+}
+/* -------------------------- */
+/*       MOBILE NAV MENU      */
+/* -------------------------- */
+
+.mobile-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  z-index: 3;
+}
+
+.hamburger img {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.mobile-nav .logo img {
+  height: 70px;
+}
+
+.nav-links {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 40px;
+  z-index: 3;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.nav-links.show {
+  display: flex;
+}
+
+/* DESKTOP RESET */
+@media (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex !important;
+    position: static;
+    flex-direction: row;
+    margin: 0;
+    gap: 40px;
+  }
+
+  .nav-links a {
+    font-size: 16px;
+  }
+
+  .mobile-nav {
+    padding: 20px 100px;
+  }
+}
